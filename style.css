@@ -1,0 +1,116 @@
+*{
+    background: #E5E5E5;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 50px;
+}
+
+.logo{
+    margin-top: 20px;
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 200px;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+#input{
+    border: none;
+    color: #0A3B71;
+    margin-top: 30px;
+    text-transform: lowercase;
+    background: linear-gradient(pink, skyblue);
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    height: 250px;
+}
+
+::placeholder{color: #0A3B71; opacity: .3;}
+
+#input:focus{
+    outline: none;
+}
+
+#output{
+    background: rgb(181, 181, 181);
+    background-image: url("Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #0A3B71;
+    margin-top: 28px;
+    margin-left: 10px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    height: 250px;
+}
+
+#output:focus{
+    outline: none;
+}
+
+.botones{
+    margin-top: 5px;
+    display: inline-flex;
+    
+}
+
+#encrypt-button{
+    background-color: #0A3B71;
+    border: 1px solid #0A3B71;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 300px;
+}
+
+#decrypt-button{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3B71;
+    border-radius: 24px;
+    color:#0A3B71;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 300px;
+}
+
+#copy-button{
+    border: 1px solid #0A3B71;
+    border-radius: 24px;
+    color:#0A3B71;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.informacion{
+    color: #495057;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+footer{
+    margin-left: 350px;
+    display: flex;
+    position: relative;
+}
+
+.derechos{
+    color: #495057;
+    font-size: 18px;
+    text-decoration: underline;
+}
